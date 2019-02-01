@@ -1,4 +1,4 @@
-package sample;
+package Interface;
 
 import Model.ButtonGenerator;
 import javafx.fxml.FXML;
@@ -11,8 +11,8 @@ import java.net.URL;
 import java.util.ResourceBundle;
 
 public class Controller implements Initializable {
-    ButtonGenerator bg;
-    int btnValue = 0;
+    private ButtonGenerator bg;
+    private int btnValue = 0;
 
     @FXML
     private Button createBtn;
